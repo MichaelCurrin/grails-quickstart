@@ -15,15 +15,15 @@ This project was created with Grails Application Forge service.
 
 - http://start.grails.org/
 
-The default settings were used.
-
-The service lets you download a zip file with the Generate button or a curl command (using your app name).
+The service lets you download a zip file with the Generate button or a curl command (using your app name). The default settings were used - a web app and the latest Grails.
 
 ```sh
 $ curl -O start.grails.org/grailsQuickstart.zip -d version=4.0.3
 ```
 
-The name `grailsquickstart` appears in part of the code.
+The app was nammed `grailsQuickstart` so the name `grailsquickstart` now appears in part of the code.
+
+For a more detailed guide, see [Creating your first Grails app](https://guides.grails.org/creating-your-first-grails-app/guide/index.html) in the Grails docs.
 
 
 ## Requirements
