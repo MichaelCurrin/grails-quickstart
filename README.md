@@ -1,21 +1,28 @@
 # Grails Quickstart
 > A simple auto-generated Grails app
 
-This doesn't do much so just serves as a reference for myself on how a Grails app is setup.
-
 
 ## Sample
 
 ![sample](sample.png)
 
 
-## About
+## Purpose
+
+This project is a simple Grails-baseed web-app.
+
+This doesn't do much so just serves as a reference for myself on how a Grails app is setup.
+
+I didn't change any code from the auto-generated quickstarted - I just added docs.
+
+
+## How to create a Grails scaffold
 
 This project was created with Grails Application Forge service.
 
 - http://start.grails.org/
 
-The service lets you download a zip file with the Generate button or a curl command (using your app name). The default settings were used - a web app and the latest Grails.
+The service lets you download a zip file with the Generate button or a curl command (using your app name). The default settings were used - a web app, though you can choose React, REST API, etc. The latest Grails version was used.
 
 ```sh
 $ curl -O start.grails.org/grailsQuickstart.zip -d version=4.0.3
@@ -29,7 +36,7 @@ For a more detailed guide, see [Creating your first Grails app](https://guides.g
 ## Requirements
 
 - [Java](https://java.com)
-- [Groovy](groovy-lang.orgx)
+- [Groovy](https://groovy-lang.org)
 - [Grails](https://grails.org)
 
 
@@ -37,17 +44,23 @@ For a more detailed guide, see [Creating your first Grails app](https://guides.g
 
 ### System dependencies
 
-Install Grails
+Install Grails.
 
-See the [Download](https://grails.org/download.html) page. Recommended - install _SDKMAN!_ approach and then Grails through the `sdk` command.
+Recommended - install using _SDKMAN!_ approach and then Grails through the `sdk` command. See the Grails [Download](https://grails.org/download.html) page for full details.
+
+
+Check it installed globally.
+
+```sh
+$ grails -version
+```
 
 
 ## Usage
 
-
 ### Run application
 
-Run Grails - this will resolve dependencies and configure the application.
+Run the Grails - this will resolve dependencies and configure the application.
 
 ```sh
 $ grails
@@ -65,6 +78,8 @@ Open in the browser:
 ```sh
 $ bash gradlew clean check
 ```
+
+Sample output:
 
 ```
 BUILD SUCCESSFUL in 7s
