@@ -60,13 +60,13 @@ $ grails -version
 
 ### Run application
 
-Run the Grails - this will resolve dependencies and configure the application.
+Run Grails in the project root - this will resolve dependencies and configure the application.
 
 ```sh
 $ grails
 ```
 
-Enter `run-app`.
+Type `run-app` and press <kbd>Return</kbd>
 
 Open in the browser:
 
